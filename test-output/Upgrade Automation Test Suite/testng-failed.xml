@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Upgrade Automation Test Suite]">
+  <test thread-count="5" name="Upgrade Automation Test Cases(failed)">
+    <classes>
+      <class name="com.qa.tests.web.BasicInfoPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="Signout"/>
+        </methods>
+      </class> <!-- com.qa.tests.web.BasicInfoPageTest -->
+    </classes>
+  </test> <!-- Upgrade Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [Upgrade Automation Test Suite] -->
